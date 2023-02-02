@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "RegisterId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "CarBrand",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "CarModel",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "CarColor",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Merikelrootvalue",
+						"type": "string"
+					}
+				],
+				"name": "AddVehicle",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Vehicleinfo.sol": "Vehicleinfo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Vehicleinfo.sol": {
+			"keccak256": "0xb27a1e0079f19cb8b00c9cd2d16bc1577b1988419807953f9f266071c70bedbb",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4a41fea6d06bff0e5b47bf910df54fd0c1e22db10dccab4946d1aa32003f32bb",
+				"dweb:/ipfs/QmUcLiQwniRmmqiE4fSAwCD8vecxmAgDQ12DJ2pm3aW1iW"
+			]
+		}
+	},
+	"version": 1
+}

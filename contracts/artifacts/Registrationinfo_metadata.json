@@ -1,0 +1,143 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "RegisterId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "CarBrand",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "CarModel",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "CarColor",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Merikelrootvalue",
+						"type": "string"
+					}
+				],
+				"name": "CreateRegistrationContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Registrations",
+				"outputs": [
+					{
+						"internalType": "contract Vehicle",
+						"name": "vehicle",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "deployedTime",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCurrentTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "registerIdToMerikelrootvalue",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/_Manufacturer.sol": "Registrationinfo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Vehicle.sol": {
+			"keccak256": "0x5435ecf6b654215058ab690171209ba0ce218fa243e29ea9aa9f01a6c8ee15e7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://89edf594972a815821887fd179728f12d2c17cb68f8b7098d784d80cd9cb365a",
+				"dweb:/ipfs/QmeXi14kox5RjuAetfk12p3ZQG3H8jcwMowkAy4fiduvYj"
+			]
+		},
+		"contracts/_Manufacturer.sol": {
+			"keccak256": "0x72b5cfbc01c0bee3ba89bf670de7150cd2bea72b2ba8c2c966cc7bfbf31c578f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://cab988e3acb764f9fd8a0372b2c3308dd280b8fab3802315831783f6f04616d2",
+				"dweb:/ipfs/Qmatca6MxgLRLmLhLeWxF35vT5YUyUyUPuBSQXU7NWfLRh"
+			]
+		}
+	},
+	"version": 1
+}
