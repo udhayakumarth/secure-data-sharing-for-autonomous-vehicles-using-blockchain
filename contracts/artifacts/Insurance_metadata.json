@@ -11,71 +11,6 @@
 						"internalType": "address",
 						"name": "vehicleContactAddress",
 						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "newOwnerAddress",
-						"type": "string"
-					}
-				],
-				"name": "TransferOwnership",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "vehicleContactAddress",
-						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "ownerAddress",
-						"type": "string"
-					}
-				],
-				"name": "VehicleRegistration",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "VehicleRegistrationList",
-				"outputs": [
-					{
-						"internalType": "contract Vehicle",
-						"name": "vehicle",
-						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "ownedBy",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "RegistedTime",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "vehicleContactAddress",
-						"type": "address"
 					}
 				],
 				"name": "getVehicleDetails",
@@ -103,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/_Registration.sol": "Registration"
+			"contracts/_Insurance.sol": "Insurance"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -133,12 +68,12 @@
 				"dweb:/ipfs/Qmct36zWXv3j7LZB83uwbg7TXwnZSN1fqHNDZ93GG98bGz"
 			]
 		},
-		"contracts/_Registration.sol": {
-			"keccak256": "0xabc814f224ef60cab1cd6fbb4b3550b4be5ae5498cf12e023c653dbf31e7ca90",
+		"contracts/_Insurance.sol": {
+			"keccak256": "0xa8d80712c562c4bc00daa64053d4f68df8679da160c92734430443aee377c5ea",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://18834c8db03091324d97287494cc35e960529a6674b1c08ca5364cab0b48ed21",
-				"dweb:/ipfs/QmZTgjdfAQKkdYkES7o1pXH3zvHvMuas3MEVjxnCmT6MZk"
+				"bzz-raw://29d2bba2319e319e2df496aaf6e14646972e83a36394ec6e625b88cd3acc4579",
+				"dweb:/ipfs/QmeckxVzPSknFLucS8Hdryf8xLwDpSNoPsxwZtYSsyxscN"
 			]
 		},
 		"contracts/_Vehicle.sol": {

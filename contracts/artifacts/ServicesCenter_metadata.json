@@ -11,71 +11,6 @@
 						"internalType": "address",
 						"name": "vehicleContactAddress",
 						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "newOwnerAddress",
-						"type": "string"
-					}
-				],
-				"name": "TransferOwnership",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "vehicleContactAddress",
-						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "ownerAddress",
-						"type": "string"
-					}
-				],
-				"name": "VehicleRegistration",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "VehicleRegistrationList",
-				"outputs": [
-					{
-						"internalType": "contract Vehicle",
-						"name": "vehicle",
-						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "ownedBy",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "RegistedTime",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "vehicleContactAddress",
-						"type": "address"
 					}
 				],
 				"name": "getVehicleDetails",
@@ -87,6 +22,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "vehicleContactAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "currentMerikelrootvalue",
+						"type": "string"
+					}
+				],
+				"name": "updateMerikelrootvalue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -103,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/_Registration.sol": "Registration"
+			"contracts/_ServicesCenter.sol": "ServicesCenter"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -133,12 +86,12 @@
 				"dweb:/ipfs/Qmct36zWXv3j7LZB83uwbg7TXwnZSN1fqHNDZ93GG98bGz"
 			]
 		},
-		"contracts/_Registration.sol": {
-			"keccak256": "0xabc814f224ef60cab1cd6fbb4b3550b4be5ae5498cf12e023c653dbf31e7ca90",
+		"contracts/_ServicesCenter.sol": {
+			"keccak256": "0x02226696d0ab540b1f65b980ee56d93739e0af95b529b0dbeee81b169e327379",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://18834c8db03091324d97287494cc35e960529a6674b1c08ca5364cab0b48ed21",
-				"dweb:/ipfs/QmZTgjdfAQKkdYkES7o1pXH3zvHvMuas3MEVjxnCmT6MZk"
+				"bzz-raw://261e02d5129e11ad1074a8caa3a2dff132b6aef338d0ad046d46aa92830039ff",
+				"dweb:/ipfs/QmU2ntYAsQh4AYiFnvXCryFzJzxWm9N4V3CYs4Ee9NdjAh"
 			]
 		},
 		"contracts/_Vehicle.sol": {

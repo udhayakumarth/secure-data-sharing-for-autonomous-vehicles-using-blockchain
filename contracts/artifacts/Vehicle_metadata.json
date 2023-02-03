@@ -105,6 +105,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getvehicleOwendBy",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getvehicleRegisterId",
 				"outputs": [
 					{
@@ -114,6 +127,32 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "oweraddress",
+						"type": "string"
+					}
+				],
+				"name": "setOwnerShip",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "currentMerikelrootvalue",
+						"type": "string"
+					}
+				],
+				"name": "updateMerikelrootvalue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -149,7 +188,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Vehicle.sol": "Vehicle"
+			"contracts/_Vehicle.sol": "Vehicle"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -179,12 +218,12 @@
 				"dweb:/ipfs/Qmct36zWXv3j7LZB83uwbg7TXwnZSN1fqHNDZ93GG98bGz"
 			]
 		},
-		"contracts/Vehicle.sol": {
-			"keccak256": "0xb9c9fcb3babc3604aa1dc2a512b50bfae0f7e294fd7d9febeb0351da9f455f6e",
+		"contracts/_Vehicle.sol": {
+			"keccak256": "0x499ef51a0d004b5572c3819ca0ff158c3f7c8362f2a1ea0d6e3a3a7e7d901c6d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2d00be41c99e981385726a24c4b4d984396b7f8deae10cc30effbdd319a62647",
-				"dweb:/ipfs/QmUmyXwtsUYMaYo8nUNdCJhCPLXb9R3aGBoQ7JvCb7uDJt"
+				"bzz-raw://0c6af16cea56794427a19ff3d117831ea361c7991136ca4ccaf1813e59628f16",
+				"dweb:/ipfs/QmW9xY2mRtqct3LmPh25Gx8Ndpv4gEeroaqmsgWq5KFjhY"
 			]
 		}
 	},

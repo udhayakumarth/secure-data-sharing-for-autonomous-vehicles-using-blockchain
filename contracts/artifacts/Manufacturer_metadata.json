@@ -153,11 +153,11 @@
 			]
 		},
 		"contracts/_Vehicle.sol": {
-			"keccak256": "0x4e20c5579038fcf36d22113d05a2c26e63d45423f5240d91a9f410b1767a4841",
+			"keccak256": "0x499ef51a0d004b5572c3819ca0ff158c3f7c8362f2a1ea0d6e3a3a7e7d901c6d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://88419353b9c5ac8d35f631ece6b487960c482221832f2010d7085e8eed125348",
-				"dweb:/ipfs/QmdQN5xFkhtxUjQMGXwPRoLNMxhwyNfzYFdJnPBdnN4R37"
+				"bzz-raw://0c6af16cea56794427a19ff3d117831ea361c7991136ca4ccaf1813e59628f16",
+				"dweb:/ipfs/QmW9xY2mRtqct3LmPh25Gx8Ndpv4gEeroaqmsgWq5KFjhY"
 			]
 		}
 	},

@@ -37,6 +37,10 @@ contract Vehicle{
         return keccak256(abi.encodePacked(currentMerikelrootvalue)) == keccak256(abi.encodePacked(merikelrootvalue));
     }
 
+    function updateMerikelrootvalue(string memory currentMerikelrootvalue) public{
+        merikelrootvalue = currentMerikelrootvalue;
+    }
+
     function getCurrentTime() internal view returns(uint){
         return block.timestamp;
     }
